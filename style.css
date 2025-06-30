@@ -1,0 +1,312 @@
+.black{
+    background-color: black;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 80px;
+}
+#amazon{
+    color: white;
+    font-size: 70px;
+    position: relative;
+    top: 2%;
+    left: 4%;
+}
+#location{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    position: absolute;
+    top: 5%;
+    left: 12%;
+}
+.delivery{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 1%;
+    left: 14%;
+    
+}
+.dropbox{
+    position:absolute;
+    left: 350px;
+    top: 20px;
+    display: flex;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.search{
+    display: flex;
+    width: 630px;
+}
+.all{
+    background-color: rgb(144, 142, 142,1);
+}
+.searchlogo{
+    font-size: 45px;
+    position: absolute;
+    left: 1025px;
+    color: rgb(20, 21, 21);
+    background-color: rgb(219, 157, 23);
+    top: 20px;
+    border-radius: 10px;
+}
+.hello{
+    position:absolute;
+    left: 1200px;
+    color: rgb(246, 246, 246);
+    top: 3px;
+}
+.order{
+    position:absolute;
+    left: 1320px;
+    
+    top: 40px;
+   
+
+}
+.ord{
+    background-color: black;
+    color: grey;
+    font-size: small;
+}
+.return{
+    position: absolute;
+    left: 1360px;
+    color: rgb(239, 246, 246);
+    top: 8px;
+}
+.cart{
+    position: absolute;
+    font-size: 40px;
+    left: 1425px;
+    color: rgb(235, 238, 237);
+    top: 22px;
+}
+.carts{
+    font-size: 15px;
+    position: absolute;
+    left: 97.5%;
+    color: rgb(245, 245, 245);
+    top: 20px;
+}
+
+.darkblue{
+    background-color: rgb(32, 32, 88);
+    height: 35px;
+   
+}
+.darkblue i{
+    font-size: 20px;
+    position: relative;
+    top: 8px;
+    left: 30px;
+    color: white;
+}
+.darkblue p{
+    color: white;
+}
+.one{
+    font-size: 18px;
+    position: absolute;
+    top: 77px;
+    left: 65px;
+    color: rgb(244, 237, 237);
+}
+.today{
+    position: absolute;
+    left: 250px;
+    top: 78px;
+
+    color: rgb(255, 255, 255);
+}
+.shop{
+    position: absolute;
+    left: 88%;
+    top: 78px;
+    color: white;
+}
+.amazonimage img{
+    height: 600px;
+    width: 50%;
+    z-index: 1;
+}
+.amazonimage2 img{
+    height: 600px;
+    width: 50%;
+    position: absolute;
+    right: 10px;
+    top: 120px;
+    z-index: 1;
+}
+.white{
+    background-color: rgb(238, 232, 232);
+    z-index: 2;
+    font-size: 15px;
+    position: absolute;
+    top: 500px;
+    width: 100%;
+    border-radius: 15px;
+   
+}
+.white p{
+    position: relative;
+    left: 400px;
+}
+.productone{
+    z-index: 2;
+    height: 400px;
+    width: 450px;
+    background-color: rgb(250, 255, 247);
+    position: relative;
+    left: 20px;
+    top: -30px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px black;
+    
+}
+body{
+    background-color: lightblue
+}
+.productone img{
+    height: 225px;
+    width: 100%;
+}
+.productone p{
+    position: relative;
+    left: 40%;
+    font-size: 30px;
+    top: 20px;
+}
+.upto{
+    background-color: red;
+    width: 10%;
+    z-index: 3;
+    position: relative;
+    top: -130px;
+    left: 4%;
+    font-size: large;
+}
+.deals{
+    color: red;
+    position: relative;
+    top: -170px;
+    left: 220px;
+    z-index: 4;
+}
+.box2{
+    z-index: 5;
+    height: 400px;
+    width: 450px;
+    background-color: rgb(250, 255, 247);
+    position: relative;
+    left: 36%;
+    top: -530px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px black;
+}
+.box2 p{
+    position: relative;
+    left: 40%;
+    font-size: 30px;
+}
+.box2 img{
+    height: 250px;
+    width: 100%;
+}
+.computer{
+    z-index: 5;
+    height: 400px;
+    width: 450px;
+    background-color: rgb(250, 255, 247);
+    position: relative;
+    left: 70%;
+    top: -960px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px black;
+}
+.computer img{
+    height: 250px;
+    width: 100%;
+
+}
+.computer p{
+    position: relative;
+    left: 40%;
+    font-size: 30px;
+
+}
+.background{
+    position: relative;
+    width: 100%;
+    top: -980px;
+    height: 60px;
+    
+    background-color: rgb(73, 73, 92);;
+
+}
+.background p{
+    position: relative;
+    left: 45%;
+    font-size: 30px;
+    color: white;
+    top: 10px;
+
+}
+.last{
+    background-color: rgb(32, 32, 88);;
+    position: relative;
+    top: -1000px;
+    height: 100vh;
+    width: 100%;
+}
+.last p{
+    color: white;
+    position: relative;
+    left: 6%;
+     line-height: 2;
+}
+.secoundlast p{
+    color: white;
+    position: relative;
+    left: 30%;
+    top: -245px;
+     line-height: 2;
+}
+.thirdlast{
+    color: white;
+    position: relative;
+    left: 49%;
+    top: -520px;
+     line-height: 2;
+}
+.fourlast{
+    color: white;
+    position: relative;
+    left: 70%;
+    top: -690px;
+    line-height: 2;
+}
+.hr{
+    position: relative;
+    top: -70%;
+}
+.last hr{
+    position: relative;
+    top: 70px;
+}
+.lastimage img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: -650px;
+    left: 47%;
+}
+.lastimage p{
+    position: relative;
+    top: -600px;
+    left: 40%;
+}
